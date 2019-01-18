@@ -35,3 +35,9 @@ ExpiresDefault "access 1 month"
     Header append Vary: Accept-Encoding
   </FilesMatch>
 </IfModule>
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ /index.php [L]
+</IfModule>
