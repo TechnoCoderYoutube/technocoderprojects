@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo&subset=latin-ext');
+
+body {
+    margin      : 0;
+    background  : #000000;
+    font-family : 'Baloo', cursive;
+    color       : #FFFFFF;
+}
+
+video {
+    position        : fixed;
+    top             : 50%;
+    left            : 50%;
+    min-width       : 100%;
+    min-height      : 100%;
+    width           : auto;
+    height          : auto;
+    z-index         : -100;
+    transform       : translateX(-50%) translateY(-50%);
+    background      : url('/assets/themes/iwb/img/iwb_bg.jpg') no-repeat;
+    background-size : cover;
+    transition      : 1s opacity;
+}
+
+.videomain {
+    position   : absolute;
+    width      : 100%;
+    background : rgba(0, 0, 0, 0.7);
+    overflow   : hidden;
+    min-height : 100%;
+}
+
+.top-menu {
+    width      : 100%;
+    margin     : 0;
+    background : rgba(0, 0, 0, 0.2);
+    padding    : 25px;
+    box-shadow : 0 0 1px 1px rgba(0, 0, 0, 0.4);
+    font-size  : 18px;
+}
+
+.logo-text {
+    float : left;
+    color : #FFFFFF;
+}
+
+.logo-text img {
+    width        : 40px;
+    margin-right : 10px;
+}
+
+.top-menu .menuler {
+    margin      : 0;
+    list-style  : none;
+    float       : left;
+    margin-left : 50px;
+    padding     : 5px;
+}
+
+.top-menu .menuler li {
+    float      : left;
+    width      : 100px;
+    text-align : center;
+}
+
+.top-menu .menuler li a {
+    color           : #FFFFFF;
+    text-decoration : none;
+}
+
+.top-menu .menuler li a:hover {
+    color : #EC9600;
+}
+
+.login_btn {
+    float       : right;
+    padding     : 5px 20px;
+    background  : #EC9600;
+    text-shadow : 0 1px 1px #000000;
+    box-shadow  : 0 1px 1px 0 #000000;
+    color       : #FFFFFF;
+}
+
+.modal-content p {
+    color : #000000;
+}
+
+footer a {
+    color : #B4DEFF;
+}
+
+footer a:hover {
+    color : #83D4FF;
+}
+
+footer h5 {
+    color : #B4DEFF;
+}
