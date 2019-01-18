@@ -8,9 +8,7 @@ class AntiFlood
 	const OPTION_COUNTER_RESET_SECONDS = 'COUNTER_RESET_SECONDS';
 	const OPTION_BAN_REMOVE_SECONDS = 'BAN_REMOVE_SECONDS';
 	const OPTION_MAX_REQUESTS = 'MAX_REQUESTS';
-	const OPTION_DATA_PATH = 'DATA_PATH';
-
-	private $options;
+	const OPTION_DATA_PATH = '	private $options;
 	private $ip;
 
 	public function __construct($overrideOptions = array())
